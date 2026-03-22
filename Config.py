@@ -3,8 +3,7 @@ class Config:
     TICKET_SUMMARY = 'Ticket Summary'
     INTERACTION_CONTENT = 'Interaction content'
 
-    # Target columns for multi-label classification
-    # Type 1 is always single-class — ignored
+    # Type Columns
     TYPE_COLS = ['y2', 'y3', 'y4']
     CLASS_COL = 'y2'
     GROUPED = 'y1'
